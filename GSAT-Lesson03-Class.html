@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>111學測英文模擬試卷｜Lesson 02 上課投影版（6–10）</title>
+<title>111學測英文模擬試卷｜Lesson 03 上課投影版（11–20）</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+TC:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -69,7 +69,7 @@ body{font-family:"Noto Sans TC","Inter",sans-serif;background:var(--navy);color:
 </style>
 </head>
 <body>
-<header id="topbar"><div><span class="top-badge">上課投影</span><span class="top-title">Lesson 02 · 111學測英文模擬試卷 · 詞彙題 6–10</span></div><div class="top-right"><select id="jump-select" class="jump-select" onchange="jumpTo(this.value)" aria-label="跳到"></select><span id="progress-text">1 / 1</span><div class="progress-wrap"><div id="progress-bar"></div></div></div></header>
+<header id="topbar"><div><span class="top-badge">上課投影</span><span class="top-title">Lesson 03 · 111學測英文模擬試卷 · 綜合測驗 11–20</span></div><div class="top-right"><select id="jump-select" class="jump-select" onchange="jumpTo(this.value)" aria-label="跳到"></select><span id="progress-text">1 / 1</span><div class="progress-wrap"><div id="progress-bar"></div></div></div></header>
 <main id="slide-area"><div class="slide" id="slide-content"></div></main>
 <footer id="bottombar"><button class="nav-btn" id="prev-btn" onclick="navigate(-1)">← 上一頁</button><div class="center-buttons"><span id="slide-type-label"></span><div class="action-row"><button class="zh-btn" id="zh-btn" onclick="toggleZh()">中文 OFF</button><button class="action-btn hidden" id="hint-btn" onclick="nextHint()">提示</button><button class="action-btn hidden" id="reveal-btn" onclick="reveal()">揭曉答案 ▼</button></div></div><button class="nav-btn" id="next-btn" onclick="navigate(1)">下一頁 →</button></footer>
 <script>
@@ -237,8 +237,422 @@ const teachingSlides=questionData.flatMap(question=>[
 const allQuestionData=[...questionData,...clozeData,...wordBankData];
 /* ===== Coached flow for Q11 to Q30: learn words, drill, try, hint, answer ===== */
 const coach=(()=>{
-const passages=[];const posRules=[];const posAnswer=[];
-const questions=[{"n":6,"p":"V","type":"意思題","answer":"priorities","options":["disputes","judgments","priorities","viewpoints"],"block":["Students without a clear set of ___ in mind usually find it difficult to manage their time well because they have no idea about what is important to them.","心中沒有一套明確 ___ 的學生，通常很難管理好時間，因為他們不知道什麼對自己重要。"],"words":[["dispute","n.","爭端；爭執","The teacher helped the two students settle their dispute calmly.","老師幫兩位同學冷靜地化解了爭執。"],["judgment","n.","判斷；判斷力","Don't make a judgment before you know the whole story.","在了解事情全貌之前，不要輕易下判斷。"],["priority","n.","優先事項","Before the exam, my top priority is to review the words I often get wrong.","考試前，我的首要任務是複習常錯的單字。"],["viewpoint","n.","觀點","From my viewpoint, students need more time to sleep.","從我的觀點來看，學生需要更多睡眠時間。"]],"keys":[["manage","v.","管理","It is hard to manage time during exam week.","考試週很難管理時間。"],["clear","adj.","清楚的；明確的","The teacher gave us clear rules.","老師給我們明確的規定。"],["have no idea","phr.","完全不知道","I have no idea where my phone is.","我完全不知道手機在哪裡。"]],"quiz":{"bank":["disputes","judgments","priorities","viewpoints"],"items":[["My top ___ this week are the math test and the English report.","priorities"],["The two neighbors had ___ about the parking space.","disputes"],["People from different countries may have different ___ on the issue.","viewpoints"],["Don’t make quick ___ about people you just met.","judgments"]]},"hints":["because 後面說，這些學生不知道什麼？","不知道「什麼最重要」，所以他們缺少的是什麼？","把四個選項放進去：「一套明確的爭議／判斷／優先順序／觀點」，哪一個和「什麼最重要」有關？"],"explain":"because 後說學生不知道什麼最重要，反推前面缺少的是「優先順序」。a clear set of priorities 是一套清楚的優先事項；priority 的複數是 priorities。","trap":"學生會選 judgments（判斷）。但題目說的是「什麼最重要、先做什麼」，這是 priorities。priority 的複數是 priorities，不是 prioritys。","formula":null,"takeaway":["set priorities","設定優先順序"]},{"n":7,"p":"V","type":"搭配題","answer":"sentiments","options":["sentiments","profiles","terminals","tributes"],"block":["I shared her ___ after we read the letters from our depressed friend. We both regretted not sparing enough time to keep her company.","讀了情緒低落的朋友寫來的信之後，我和她有同樣的 ___。我們都後悔沒有多花時間陪伴朋友。"],"words":[["sentiment","n.","感受；看法","Many students share the sentiment that there is too much homework.","許多學生都認同作業太多的看法。"],["profile","n.","個人檔案；簡介","Think twice before you share personal information on your social media profile.","在社群媒體個人檔案上分享個人資料前要三思。"],["terminal","n.","航廈；終端機","Our flight leaves from Terminal 2, so we need to take the shuttle bus.","我們的班機從第二航廈出發，所以要搭接駁車。"],["tribute","n.","敬意；致敬","The students sang a song to pay tribute to their retiring teacher.","學生們唱了一首歌，向即將退休的老師致敬。"]],"keys":[["depressed","adj.","沮喪的；情緒低落的","He felt depressed after losing the game.","輸了比賽後他很沮喪。"],["regret","v.","後悔","I regret not studying harder.","我後悔沒有更努力讀書。"],["keep someone company","phr.","陪伴某人","I stayed home to keep my sick brother company.","我留在家陪生病的弟弟。"]],"quiz":{"bank":["sentiments","profiles","terminals","tributes"],"items":[["This airport has two ___, and our flight leaves from the new one.","terminals"],["Many students share the same ___ about the new rule.","sentiments"],["People left flowers as ___ to the brave firefighters.","tributes"],["You can read the players’ ___ on the team’s website.","profiles"]]},"hints":["下一句說「我們兩個都」怎麼樣？","兩個人都後悔，代表她們有相同的什麼？","share her ___：可以「分享」的是感受，還是個人檔案、航廈、敬意？"],"explain":"We both regretted 表明兩人有相同的後悔感受；share her sentiments 表示「認同她的感受」。sentiment 在此指感受或看法，不是實際物品。","trap":"看到 depressed（情緒低落）和 letters，學生會聯想到紀念、致敬而選 tributes。tribute 要用 pay tribute to，文中也沒有提到紀念。","formula":null,"takeaway":["share someone’s sentiments","認同某人的感受"]},{"n":8,"p":"V","type":"意思題","answer":"relatively","options":["eventually","realistically","practically","relatively"],"block":["Compared with other people facing the same dilemma, she is ___ optimistic about her chance to succeed in the long run.","和其他面臨同樣困境的人相比，她對自己長期成功的機會 ___ 樂觀。"],"words":[["eventually","adv.","最後；終於","After failing three times, he eventually passed the driving test.","失敗三次後，他終於通過了駕照考試。"],["realistically","adv.","實際地；務實地","Realistically speaking, we cannot finish this project in one day.","實際來說，我們不可能一天做完這份專題。"],["practically","adv.","幾乎；實際上","Without a map, it is practically impossible to find the way out.","沒有地圖，幾乎不可能找到出路。"],["relatively","adv.","相對地；比較而言","Compared with other cities, Tainan is relatively warm in winter.","和其他城市相比，台南的冬天相對溫暖。"]],"keys":[["dilemma","n.","兩難；困境","I am in a dilemma: study or sleep?","我陷入兩難：讀書還是睡覺？"],["optimistic","adj.","樂觀的","Stay optimistic, and you will find a way.","保持樂觀，你會找到辦法。"],["in the long run","phr.","長期而言","Exercise helps you in the long run.","長期來看，運動對你有幫助。"]],"quiz":{"bank":["eventually","realistically","practically","relatively"],"items":[["After many tries, he ___ passed the test.","eventually"],["This question is ___ easy compared with the last one.","relatively"],["___ speaking, we can’t finish this in one hour.","Realistically"],["The store was ___ empty; there were only two customers.","practically"]]},"hints":["句子開頭的 Compared with 是什麼意思？","「和別人相比，她比較樂觀」，空格要表達什麼意思？","四個副詞裡，哪一個是「相對地、比較而言」？"],"explain":"Compared with 已設定「和其他人相比」的基準，因此 relatively optimistic 是「相對樂觀」。relatively 修飾形容詞 optimistic，不表示她完全沒有困難。","trap":"看到 in the long run（長期而言）會想選 eventually（最後）。但空格修飾的是 optimistic，要回應句首的 Compared with。","formula":["Compared with ..., 主詞 + be + relatively + 形容詞","和……相比，相對……",null],"takeaway":["relatively optimistic","相對樂觀"]},{"n":9,"p":"V","type":"意思題","answer":"suspended","options":["suspended","confessed","sheltered","obsessed"],"block":["His duty as a general manager is currently ___ until further investigation proves his innocence in the rumored scandal.","他的總經理職務目前被 ___，直到進一步調查證明他在傳聞醜聞中的清白為止。"],"words":[["suspend","v.","暫停；使停職","Classes were suspended because of the typhoon, so we stayed at home.","因為颱風停課，所以我們待在家裡。"],["confess","v.","坦承；招認","He finally confessed to breaking the window.","他終於坦承打破了窗戶。"],["shelter","v.","遮蔽；保護","The old tree sheltered us from the heavy rain.","那棵老樹為我們擋住了大雨。"],["obsessed","adj.","著迷的；沉迷的","My brother is obsessed with online games and often stays up late.","我弟弟沉迷於線上遊戲，常常熬夜。"]],"keys":[["currently","adv.","目前","She is currently living in Taipei.","她目前住在台北。"],["investigation","n.","調查","The police started an investigation.","警方展開調查。"],["innocence","n.","清白；無辜","He tried to prove his innocence.","他試著證明自己的清白。"]],"quiz":{"bank":["suspended","confessed","sheltered","obsessed"],"items":[["The thief finally ___ to taking the money.","confessed"],["My sister is ___ with K-pop.","obsessed"],["The trains were ___ because of the heavy snow.","suspended"],["The big tree ___ us from the rain.","sheltered"]]},"hints":["until 後面說：要等什麼事完成？","調查還沒結束，他還沒被證明清白。他的工作「目前」會怎麼樣？","把四個字放進去：職務被「暫停／坦白／庇護／著迷」，哪一個說得通？"],"explain":"until further investigation 表示調查還在進行；在證明清白之前，經理的職務被暫停。is suspended 是被動形式，suspend 在此指暫停職務。","trap":"看到 scandal（醜聞）就以為他已經 confessed（坦白）。但句子說要等調查證明他清白，代表還沒有結論。","formula":["be suspended from + 職務／學校","被停職／被停學",null],"takeaway":["be suspended from duty","被停職"]},{"n":10,"p":"V","type":"意思題","answer":"concern","options":["illustrate","identify","discharge","concern"],"block":["It seemed that the issue of water pollution did not ___ local residents, as few expressed their views or worries in the town meeting.","水污染的問題似乎沒有 ___ 當地居民，因為在鎮民大會上很少有人表達意見或擔憂。"],"words":[["illustrate","v.","說明；畫插圖","The teacher used a simple example to illustrate her point.","老師用一個簡單的例子來說明她的論點。"],["identify","v.","辨認；找出","We need to identify the cause of the problem before we try to solve it.","在解決問題之前，我們必須先找出原因。"],["discharge","v.","排放；准許出院","My grandfather was discharged from the hospital after a week.","我爺爺住院一週後出院了。"],["concern","v.","使擔憂；與……有關","The rising number of traffic accidents concerns many parents.","交通事故增加讓許多家長擔憂。"]],"keys":[["pollution","n.","污染","Air pollution is a big problem in many cities.","空氣污染是很多城市的大問題。"],["resident","n.","居民","Local residents are happy about the new park.","當地居民很高興有新公園。"],["express","v.","表達","It is hard for me to express my feelings in English.","我很難用英文表達感受。"]],"quiz":{"bank":["illustrate","identify","discharge","concern"],"items":[["The teacher drew a picture to ___ the idea.","illustrate"],["Can you ___ the man in this photo?","identify"],["Rising prices ___ many families.","concern"],["Factories should not ___ dirty water into rivers.","discharge"]]},"hints":["as 後面說：在鎮民大會上，很少人表達什麼？","很少人表達擔憂，代表這個問題沒有讓居民怎麼樣？","主詞是「問題」，受詞是「居民」：問題可以「說明、辨認、排放、使擔心」居民，哪一個說得通？"],"explain":"as 後說幾乎沒人表達意見或擔憂，因此水污染問題似乎沒有使居民憂慮。concern 在此是動詞，the issue concerns residents＝這件事使居民擔心。","trap":"看到 water pollution 會想到 discharge（排放）。但排放廢水的是工廠，「問題」不能排放「居民」。","formula":["事情 + concern + 人 = 人 + be concerned about + 事情","某事讓某人擔心",null],"takeaway":["be concerned about","擔心……"]}];
+// Lesson 01, Q11 to Q30. Student-first flow: words first, student tries, hints one by one, answer last.
+// word: [word, pos, zh, example, exampleZh]
+const passages = [
+{
+  id:'A', label:'題組 A · 綜合測驗 11–15', title:'Landfill Gas 垃圾掩埋場的氣體',
+  story:[
+    ['城市垃圾太多，是政府和民眾的大問題。','',''],
+    ['美國專家對垃圾問題有了新辦法。','11','專家對這個辦法「做了什麼」？'],
+    ['垃圾在掩埋場分解時，會放出甲烷和二氧化碳兩種氣體，可以燒來發電。','12',''],
+    ['美國幾乎每一州都有這種計畫，美國政府也認可這種能源。','13',''],
+    ['比利時、挪威、瑞典也和企業合作在做。','14','很多國家都在做，這種計畫在全世界的情況是？'],
+    ['台灣呢？作者最後說：這個計畫值得考慮。','15','「值得考慮」代表台灣做了沒？']
+  ],
+  sentences:[
+    [["In a densely populated metropolis,","在人口密集的大城市裡，"],["the collective output of waste","大家一起製造的垃圾"],["can spell disaster","可能造成災難"],["for both the government and the average public.","對政府和一般民眾都是。"]],
+    [["While most household waste","雖然大部分家庭垃圾"],["either ends up in landfills","最後不是進了掩埋場"],["or burned up,","就是被燒掉，"],["experts in America","美國的專家"],["have 11. ___ an alternative","已經 ___ 一個替代方法"],["that can turn the waste even to our advantage.","可以把垃圾變成對我們有利的東西。"]],
+    [["As garbage breaks down in landfills,","當垃圾在掩埋場分解時，"],["the organic materials","裡面的有機物質"],["release gases","會釋放氣體"],["such as methane and carbon dioxide,","例如甲烷和二氧化碳，"],["both of 12. ___ can be burned","這兩種 ___ 都可以燃燒"],["to generate enough electricity","來產生足夠的電"],["to meet the needs of common families.","滿足一般家庭的需要。"]],
+    [["Such projects","這類計畫"],["have currently been in place","目前已經在實施"],["in nearly every state in the U.S.","在美國幾乎每一州"],["except Alaska and Hawaii.","除了阿拉斯加和夏威夷。"]],
+    [["13. ___ is the potential of the landfill gas","掩埋場氣體的潛力是 ___"],["that it’s recognized","以至於它被認可"],["as an efficient and environmentally-friendly energy source","為高效率又環保的能源"],["by the American government.","（被美國政府認可）。"]],
+    [["In fact,","事實上，"],["similar projects","類似的計畫"],["are 14. ___ worldwide.","正在全世界 ___。"]],
+    [["Countries like Belgium, Norway and Sweden","像比利時、挪威、瑞典這些國家"],["have cooperated with local enterprises","已經和當地企業合作"],["in tapping into the often detested landfills","利用常被人討厭的掩埋場"],["for energy and also for extra revenue.","取得能源，也賺取額外收入。"]],
+    [["However,","然而，"],["the idea","這個想法"],["15. ___ be given much thought","___ 被好好思考"],["in Taiwan.","在台灣。"]],
+    [["In any case,","無論如何，"],["the project is certainly worth considering","這個計畫絕對值得考慮"],["in view of our ever-increasing amounts of garbage.","因為我們的垃圾量越來越多。"]]
+  ]
+},
+{
+  id:'B', label:'題組 B · 綜合測驗 16–20', title:'Dancer Sheu Fang-Yi 舞者許芳宜',
+  story:[
+    ['許芳宜是在台灣長大、站上國際舞台的舞者。','',''],
+    ['她很早就想當舞者。父母強烈反對，她的態度很堅定。','16','「父母反對」和「她很堅定」，是順著還是相反？'],
+    ['有天分的舞者很多。她嚴格控制飲食、每天嚴格訓練。','17','她和別人不同的地方，是什麼樣的特質？'],
+    ['從青少年到成年，她對舞蹈的投入讓老師同學印象深刻，後來進入美國有名的舞團。','18','這麼長的時間，她的投入是什麼樣子？'],
+    ['她很傑出、很有名，但也遇過挫折。','19','「有名」和「有挫折」是什麼關係？'],
+    ['她自己開的舞團失敗了，還損失好幾百萬。之後，她在國內外推廣現代舞。','20','失敗之後，她放棄了嗎？']
+  ],
+  sentences:[
+    [["Born and raised in Taiwan,","在台灣出生、長大，"],["dancer Sheu Fang-Yi","舞者許芳宜"],["is a sight to behold","是令人驚豔的存在"],["on the global stage.","在國際舞台上。"]],
+    [["Sheu found her calling in dancing early on,","許芳宜很早就發現跳舞是她的志向，"],["and 16. ___ strong opposition from her parents,","而且 ___ 父母強烈反對，"],["she has been determined and resilient","她一直很堅定、很有韌性"],["in her aspiration to become a dancer by profession.","朝著成為職業舞者的目標前進。"]],
+    [["There is never a shortage of dancers","從來不缺舞者"],["blessed with talent.","（有天分的那種）。"]],
+    [["What sets Sheu apart from others, however,","然而，讓許芳宜和別人不一樣的"],["is her 17. ___","是她的 ___"],["to put in the hard work","願意下苦功"],["to further her skills.","來提升自己的技巧。"]],
+    [["She follows a diet with a nearly religious fervor","她近乎虔誠地遵守飲食控制"],["as well as keeping a rigorous workout routine","也維持嚴格的訓練習慣"],["to stay fit.","來保持身材。"]],
+    [["Sheu has impressed her mentors and peers","許芳宜讓老師和同儕印象深刻"],["with her 18. ___ dedication to her art","靠的是她對藝術 ___ 的投入"],["from adolescence to adulthood,","從青少年到成年，"],["winning a much-coveted spot in Martha Graham Dance Company in 1995,","1995 年贏得瑪莎葛蘭姆舞團令人羨慕的位子，"],["one of the most respected and celebrated dance companies in the U.S.","那是美國最受尊敬、最有名的舞團之一。"]],
+    [["Outstanding and renowned 19. ___ she is,","___ 她很傑出又很有名，"],["she has her share of setbacks","她也有過不少挫折"],["like anyone else in pursuit of a grand dream or ambition.","就像任何追求偉大夢想的人一樣。"]],
+    [["The dance company she established single-handedly","她一個人創立的舞團"],["did not work out","沒有成功"],["and she even terminated a number of contracts","她甚至終止了好幾份合約"],["that cost her millions.","讓她損失好幾百萬。"]],
+    [["20. ___,","___，"],["she takes it upon herself","她主動扛起責任"],["to promote modern dance at home and abroad.","在國內外推廣現代舞。"]],
+    [["We can surely expect","我們一定可以期待"],["to be amazed by more of her productions","被她更多的作品驚豔"],["in the years to come.","在未來幾年。"]]
+  ]
+},
+{
+  id:'C', label:'題組 C · 文意選填 21–30', title:'Jeju Haenyeos 濟州島海女',
+  story:[
+    ['濟州島看起來很奢華，但外表後面有一個一千多年的海女傳統。','21',''],
+    ['海女潛到海底撈海藻、章魚、鮑魚。','22','她們撈海產，和家人有什麼關係？'],
+    ['這個職業以前和後來的情況不一樣。很多男人死在戰爭和意外中。','23 24','以前是誰在做？後來海女和男人比，人數怎樣？'],
+    ['海女在家裡的經濟地位改變了。男人開始照顧小孩、做家裡的事。','25 26 27','男人做家事，和傳統比起來是怎樣？'],
+    ['在家庭以外，男人和女人的地位怎樣？殖民時期的限制讓海女能不能當老闆？','28 29',''],
+    ['最近幾十年海女人數大幅減少，但她們仍然受尊敬，2016 年列入聯合國文化遺產。','30','']
+  ],
+  sentences:[
+    [["Jeju,","濟州島，"],["an island off the southern coast of South Korea,","一個在南韓南部外海的島，"],["usually brings to mind","通常讓人想到"],["images of lavish living and luxurious vacation homes.","奢華生活和豪華度假別墅的畫面。"]],
+    [["However,","然而，"],["behind her glazed and extravagant facades","在她光鮮華麗的外表後面"],["21. ___ a storied sea-diving tradition","___ 一個歷史悠久的潛水傳統"],["that dates back more than a dozen centuries.","可以追溯到一千兩百多年前。"]],
+    [["Haenyeos, or sea women,","Haenyeos，也就是「海女」，"],["are female divers","是女性潛水員"],["who 22. ___ their family","她們 ___ 家人"],["by scouring the sea floor","靠著仔細搜尋海底"],["for seaweed, octopus, abalone, and other sea life","找海藻、章魚、鮑魚和其他海洋生物"],["off the coast of Jeju.","在濟州島外海。"]],
+    [["This was a profession","這曾經是一個職業"],["23. ___ dominated by males.","___ 由男性主導。"]],
+    [["However,","然而，"],["with more and more men killed","隨著越來越多男人死亡"],["in wars and deep-sea diving and fishing accidents,","在戰爭、深海潛水和捕魚意外中，"],["haenyeos increasingly outnumbered their male 24. ___","海女的人數漸漸超過男性 ___"],["over time.","隨著時間過去。"]],
+    [["For the past decades,","過去幾十年來，"],["haenyeos have become the 25. ___ source of income","海女已經成為 ___ 收入來源"],["in most households,","在大部分家庭裡，"],["turning local communities into a semi female-dominated society,","讓當地變成半女性主導的社會，"],["where traditional gender roles are 26. ___.","在那裡，傳統的男女角色被 ___。"]],
+    [["That is,","也就是說，"],["men can be seen looking after young children","可以看到男人在照顧小孩"],["and attending to other physically-demanding household 27. ___,","還處理其他很費體力的家庭 ___，"],["and men marrying haenyeos","而且娶海女的男人"],["are even compelled to pay the family of the bride","甚至必須付給新娘家"],["a huge sum of dowry as compensation.","一大筆嫁妝當作補償。"]],
+    [["Such dominance of females over males, however,","然而，這種女性勝過男性的情況"],["is rarely seen outside the domestic sphere.","在家庭以外很少見。"]],
+    [["Men still 28. ___ leadership roles","男人仍然 ___ 領導角色"],["in society at large.","在整個社會上。"]],
+    [["Because of colonial restrictions,","因為殖民時期的限制，"],["haenyeos 29. ___ advance to independent business owners.","海女 ___ 升級成獨立的老闆。"]],
+    [["Instead,","相反地，"],["they are confined to their labor-intensive work","她們被困在很耗體力的工作裡"],["of diving and fishing.","也就是潛水和捕魚。"]],
+    [["Jeju may have 30. ___ a sharp decrease","濟州島或許已經 ___ 大幅減少"],["in the number of haenyeos","（海女的人數）"],["in recent decades,","在最近幾十年，"],["but they are still quite respected","但她們仍然很受尊敬"],["for their contributions.","因為她們的貢獻。"]],
+    [["They were included on the list of Cultural Heritage of Humanity","她們被列入人類文化遺產名單"],["by the UNESCO in 2016.","由聯合國教科文組織在 2016 年列入。"]]
+  ],
+  // Word bank: taught once for the whole passage.
+  words:[
+    ['lie','v.','位於；存在（三態 lie, lay, lain）','A small village lies at the foot of the mountain.','山腳下有一個小村莊。'],
+    ['provide for','phr.','養活（家人）','My parents work hard to provide for our family.','我爸媽努力工作養活我們家。'],
+    ['initially','adv.','起初；一開始','Initially, I hated math, but now I like it.','我一開始很討厭數學，但現在很喜歡。'],
+    ['colleague','n.','同事；同行','My mom eats lunch with her colleagues every day.','我媽媽每天和同事一起吃午餐。'],
+    ['primary','adj.','主要的','Rice is the primary food in Taiwan.','米飯是台灣主要的食物。'],
+    ['reverse','v.','顛倒；反轉','Let’s reverse roles: you are the teacher, and I am the student.','我們角色對調：你當老師，我當學生。'],
+    ['chore','n.','家事；雜事','I do chores like washing the dishes every day.','我每天做洗碗之類的家事。'],
+    ['assume','v.','擔任；假設','Amy will assume the role of class leader.','Amy 將擔任班長。'],
+    ['hardly','adv.','幾乎不','It was so noisy that I could hardly hear you.','太吵了，我幾乎聽不到你說話。'],
+    ['witness','v.','目擊；經歷、見證','Taipei has witnessed many changes in the past 30 years.','台北在過去 30 年經歷了很多變化。']
+  ],
+  quiz:{ bank:['lies','provide for','initially','colleagues','primary','reversed','chores','assume','hardly','witnessed'], items:[
+    ['I ___ slept last night, so I am very tired.','hardly'],
+    ['Taking out the trash is one of my ___.','chores'],
+    ['Kenting ___ in the south of Taiwan.','lies'],
+    ['He works two jobs to ___ his three kids.','provide for'],
+    ['___, she was shy, but later she made many friends.','Initially'],
+    ['The ___ reason I study English is to travel.','primary'],
+    ['Three people ___ the car accident.','witnessed'],
+    ['He gets along well with his ___ at the office.','colleagues'],
+    ['The new manager will ___ the job next week.','assume'],
+    ['In this game, the order is ___: the last person goes first.','reversed']
+  ]},
+  keys:[
+    ['tradition','n.','傳統','Eating mooncakes is a Mid-Autumn tradition.','吃月餅是中秋節的傳統。'],
+    ['dominate','v.','主導；占優勢','Boys usually dominate the basketball court at school.','學校籃球場通常都是男生在用。'],
+    ['outnumber','v.','人數超過','Girls outnumber boys in our class.','我們班女生比男生多。'],
+    ['income','n.','收入','My uncle’s income is not high, but he is happy.','我舅舅收入不高，但他很快樂。'],
+    ['restriction','n.','限制','There are restrictions on phone use at school.','學校對使用手機有限制。'],
+    ['decrease','n./v.','減少','There is a decrease in the number of babies in Taiwan.','台灣嬰兒的數量在減少。']
+  ]
+}
+];
+
+const posRules = [
+  ['the / a + ___ + 名詞', '形容詞'],
+  ['名詞 + ___（後面沒有名詞了）', '名詞'],
+  ['主詞 + ___ + 動詞', '副詞'],
+  ['is / are / was + ___（被……）', '過去分詞'],
+  ['have / has / may have + ___', '過去分詞'],
+  ['主詞 / who + ___ + 名詞', '動詞']
+];
+const posAnswer = [
+  ['形容詞','primary'],['名詞（複數）','chores, colleagues'],['副詞','initially, hardly'],
+  ['動詞 · 過去分詞','witnessed, reversed'],['動詞 · 原形','provide for, assume'],['動詞 · 第三人稱單數','lies']
+];
+const wbOrder = '先做「詞性只有一個候選」的空格，再做「二選一」的空格。每做完一題就劃掉那個選項，最後剩下的就是最難的那一題。';
+
+const questions = [
+{ n:11, p:'A', type:'意思題', answer:'devised', options:['devised','endured','fetched','hastened'],
+  block:['experts in America have ___ an alternative','美國專家已經 ___ 一個替代方法'],
+  words:[
+    ['devise','v.','想出；設計','She devised a new way to remember words.','她想出一個背單字的新方法。'],
+    ['endure','v.','忍受','I can’t endure the noise anymore.','我再也受不了這個噪音了。'],
+    ['fetch','v.','去拿來','Can you fetch me a glass of water?','你可以去幫我拿一杯水嗎？'],
+    ['hasten','v.','加快','We hastened our steps when it started to rain.','開始下雨時，我們加快了腳步。']],
+  quiz:{ bank:['devised','endure','fetch','hasten'], items:[
+    ['The dog ran to ___ the ball.','fetch'],
+    ['Smoking can ___ aging.','hasten'],
+    ['The teacher ___ a fun game for the class.','devised'],
+    ['He had to ___ the pain after the accident.','endure']]},
+  keys:[
+    ['alternative','n.','替代方案；另一個選擇','If the bus is late, take the MRT as an alternative.','公車誤點的話，可以改搭捷運。'],
+    ['household','adj.','家庭的','We recycle our household waste.','我們會回收家裡的垃圾。'],
+    ['landfill','n.','垃圾掩埋場','Too much trash goes to landfills.','太多垃圾被送去掩埋場。']],
+  hints:[
+    '空格後面是 an alternative（一個替代方法）。專家對「一個方法」可以做什麼事？',
+    '把四個選項的中文，一個一個放進去念：「專家已經 ___ 一個方法」。',
+    '「忍受一個方法」和「去拿一個方法」都說不通。剩下兩個，哪個通？'],
+  explain:'devise an alternative 是「想出一個替代方法」。endure 是忍受、fetch 是去拿東西、hasten 是加快速度，都不能用在「方法」上。四個選項都是 -ed，所以這題只要看意思。',
+  trap:'學生可能選 fetched，以為是「找來一個方法」。fetch 是把東西拿過來，例如狗撿球，不能用在方法或點子。',
+  formula:null, takeaway:['devise a plan','想出一個計畫']
+},
+{ n:12, p:'A', type:'公式題', answer:'which', options:['them','those','which','what'],
+  block:['gases such as methane and carbon dioxide, both of ___ can be burned','氣體，例如甲烷和二氧化碳，這兩種 ___ 都可以燃燒'],
+  words:[
+    ['them','pron.','它們（受詞）','I have two cats. I love them.','我有兩隻貓，我很愛牠們。'],
+    ['those','pron.','那些','These shoes are mine. Those are yours.','這些鞋子是我的，那些是你的。'],
+    ['which','pron.','（把兩句接起來）那些東西','I have two cats, both of which are black.','我有兩隻貓，兩隻都是黑的。'],
+    ['what','pron.','什麼；……的東西','I don’t know what he wants.','我不知道他想要什麼。']],
+  intro:'先比較這兩句：句號隔開用 them，逗號接起來用 which。',
+  compare:[['I have two cats. Both of them are black.','兩句話，中間是句號'],['I have two cats, both of which are black.','一句話，中間是逗號']],
+  quiz:{ bank:['them','which'], items:[
+    ['She bought two bags. Both of ___ are red.','them'],
+    ['She bought two bags, both of ___ are red.','which'],
+    ['He has three bikes, all of ___ are new.','which'],
+    ['I have many friends. Some of ___ live in Tainan.','them']]},
+  keys:[
+    ['release','v.','釋放；排出','The factory releases smoke into the air.','工廠把煙排到空氣中。'],
+    ['generate','v.','產生','Solar panels generate electricity.','太陽能板會發電。'],
+    ['organic','adj.','有機的','My mom buys organic vegetables.','我媽媽買有機蔬菜。']],
+  hints:[
+    '找出逗號的位置。逗號前面那一段，是不是一句完整的話？',
+    '逗號後面還有動詞 can be burned。兩句話中間只有逗號、沒有 and，要用哪種字接起來？',
+    '哪一個字能把兩句話接起來，同時代表前面的兩種氣體？'],
+  explain:'逗號前是一句完整的話，逗號後的 can be burned 是第二句話。兩句之間沒有 and，要用 which 把兩句接起來，which 同時代表前面的甲烷和二氧化碳。them 和 those 沒有接句子的功能；what 不會放在逗號後面指前面的東西。',
+  trap:'學生最常選 them，因為中文說「它們兩個都可以燒」很自然。提醒：英文兩句話之間沒有 and，就要用 which。',
+  formula:['名詞, both of which + 動詞','……，這兩者都……','同類：all of which（全部都）、some of which（其中一些）'], takeaway:['both of which','這兩者都']
+},
+{ n:13, p:'A', type:'公式題', answer:'Such', options:['So','Such','That','It'],
+  block:['___ is the potential of the landfill gas that it’s recognized as ...','掩埋場氣體的潛力是 ___，以至於它被認可為……'],
+  words:[
+    ['so','adv.','如此（後面接形容詞）','The soup is so hot that I can’t eat it.','湯燙到我沒辦法喝。'],
+    ['such','det.','如此（後面接名詞）','It was such a hot day that we stayed home.','那天熱到我們都待在家。'],
+    ['that','conj.','以至於（接在 so / such 後面）','He ran so fast that nobody could catch him.','他跑得快到沒人追得上。'],
+    ['it','pron.','它','I lost my pen. Have you seen it?','我的筆不見了，你有看到嗎？']],
+  intro:'口訣：so 後面接形容詞，such 後面接名詞。',
+  quiz:{ bank:['so','such','Such'], items:[
+    ['He is ___ tired that he fell asleep in class.','so'],
+    ['It was ___ a good movie that I watched it twice.','such'],
+    ['The test was ___ easy that everyone passed.','so'],
+    ['___ is his talent that every team wants him.','Such']]},
+  keys:[
+    ['potential','n.','潛力','This young player has great potential.','這個年輕球員很有潛力。'],
+    ['recognize','v.','認可；認出','I didn’t recognize you with short hair.','你剪短髮，我沒認出你。'],
+    ['efficient','adj.','有效率的','An efficient student finishes homework quickly.','有效率的學生很快就寫完作業。'],
+    ['environmentally friendly','adj.','環保的','Riding a bike is environmentally friendly.','騎腳踏車很環保。']],
+  hints:[
+    '空格後面是 is the potential。potential 是什麼詞性？',
+    '句子後面有一個 that。想想「如此……以至於……」的兩種寫法。',
+    'so 接形容詞，such 接名詞。the potential 是哪一種？'],
+  explain:'Such is the potential ... that ... 意思是「潛力如此大，以至於……」。the potential 是名詞，所以用 such，不用 so。這句是倒裝，原本是 The potential is such that ...，記住開頭的公式就好。It 填進去意思不通。',
+  trap:'學生可能選 It，以為是 It is ... that 的句型，但填進去意思說不通。',
+  formula:['Such is + 名詞 + that ...','名詞如此（大），以至於……','對比：so + 形容詞 + that'], takeaway:['Such is the potential that ...','潛力如此大，以至於……']
+},
+{ n:14, p:'A', type:'意思題', answer:'catching on', options:['taking on','coming across','making up','catching on'],
+  block:['In fact, similar projects are ___ worldwide.','事實上，類似的計畫正在全世界 ___。'],
+  words:[
+    ['take on','phr.','接下；承擔（工作、責任）','She took on too much work this week.','她這週接了太多工作。'],
+    ['come across','phr.','偶然遇到；偶然發現','I came across an old photo in my drawer.','我在抽屜裡偶然發現一張舊照片。'],
+    ['make up','phr.','編造；組成','He made up a story about his dog eating his homework.','他編了一個狗吃掉他作業的故事。'],
+    ['catch on','phr.','流行起來','The new phone game caught on quickly at school.','那款新手遊很快在學校流行起來。']],
+  quiz:{ bank:['take on','come across','make up','caught on'], items:[
+    ['Did you ___ any new words in the article?','come across'],
+    ['Bubble tea has ___ all over the world.','caught on'],
+    ['Don’t ___ excuses. Tell me the truth.','make up'],
+    ['I am too busy to ___ another job.','take on']]},
+  keys:[
+    ['similar','adj.','類似的','My sister and I have similar hobbies.','我和姊姊有類似的興趣。'],
+    ['worldwide','adv.','在全世界','This song is famous worldwide.','這首歌全世界都知道。'],
+    ['revenue','n.','收入；營收','The shop’s revenue went up this year.','這家店今年營收增加了。']],
+  hints:[
+    'worldwide 是「全世界」。下一句提到了哪些國家？',
+    '很多國家都在做同一件事，中文會怎麼形容這件事？',
+    '把四個片語的中文放進去念：「類似的計畫正在全世界 ___」。'],
+  explain:'下一句列出比利時、挪威、瑞典都在做，代表這類計畫正在全世界流行，catch on 就是「流行起來」。計畫在全世界「接下、碰到、編造」都說不通。片語動詞要整組當一個單字背，不要拆開猜。',
+  trap:null, formula:null, takeaway:['catch on','流行起來']
+},
+{ n:15, p:'A', type:'意思題', answer:'has yet to', options:['is supposed to','has yet to','might as well','had better'],
+  block:['However, the idea ___ be given much thought in Taiwan.','然而，這個想法在台灣 ___ 被好好思考。'],
+  words:[
+    ['be supposed to','phr.','應該；本來預定要','You are supposed to be home by ten.','你應該十點前到家。'],
+    ['have yet to','phr.','還沒','I have yet to finish my homework.','我還沒寫完作業。'],
+    ['might as well','phr.','不妨；乾脆','The bus is late. We might as well walk.','公車誤點了，我們乾脆用走的。'],
+    ['had better','phr.','最好（不然會有麻煩）','You had better study, or you will fail.','你最好讀書，不然會不及格。']],
+  quiz:{ bank:['is supposed to','has yet to','might as well','had better'], items:[
+    ['It is raining. We ___ stay home and watch a movie.','might as well'],
+    ['The bus ___ arrive at 8, but it is late.','is supposed to'],
+    ['You ___ hurry, or you will miss the train.','had better'],
+    ['The new MRT line ___ open. Maybe next year.','has yet to']]},
+  keys:[
+    ['however','adv.','然而（後面講相反的事）','I wanted to go out. However, it rained.','我想出門，然而下雨了。'],
+    ['be worth + V-ing','phr.','值得做某事','This book is worth reading.','這本書值得一讀。']],
+  hints:[
+    'However 是什麼意思？前一段說全世界的情況怎樣？',
+    '「然而」後面會講相反的事。台灣的情況會是什麼？',
+    '最後一句說這個計畫 worth considering（值得考慮）。台灣做了沒？'],
+  explain:'前面說全世界都在做，However 轉折，台灣「還沒」認真考慮，最後一句「值得考慮」也證明台灣還沒做。has yet to 是「還沒」。',
+  trap:'has yet to 裡面有 has 和 yet，學生會以為是「已經」，其實是「還沒」。',
+  formula:['have / has yet to + 原形動詞','還沒……','= have not + 過去分詞 + yet'], takeaway:['has yet to be solved','還沒被解決']
+},
+{ n:16, p:'B', type:'意思題', answer:'in spite of', options:['instead of','owing to','in spite of','in contrast to'],
+  block:['___ strong opposition from her parents, she has been determined','___ 父母強烈反對，她一直很堅定'],
+  words:[
+    ['instead of','prep.','而不是','I drank tea instead of coffee.','我喝了茶，而不是咖啡。'],
+    ['owing to','prep.','因為','The game was canceled owing to the rain.','比賽因為下雨取消了。'],
+    ['in spite of','prep.','儘管','He went to school in spite of his cold.','儘管感冒，他還是去上學。'],
+    ['in contrast to','prep.','和……相比（兩者很不一樣）','In contrast to his brother, Tom is very quiet.','和哥哥相比，Tom 非常安靜。']],
+  quiz:{ bank:['instead of','owing to','in spite of','in contrast to'], items:[
+    ['She smiled ___ the bad news.','in spite of'],
+    ['Let’s walk ___ taking a taxi.','instead of'],
+    ['___ the hot south, the north is cold.','In contrast to'],
+    ['The train was late ___ an accident.','owing to']]},
+  keys:[
+    ['opposition','n.','反對','The plan met strong opposition from parents.','這個計畫遭到家長強烈反對。'],
+    ['determined','adj.','下定決心的；堅定的','She is determined to pass the test.','她下定決心要通過考試。'],
+    ['calling','n.','志向；天職','Teaching is her calling.','教書是她的天職。']],
+  hints:[
+    'opposition 是「反對」，determined 是「堅定的」。',
+    '「父母反對」和「她很堅定」，是順著的關係，還是相反的關係？',
+    '她是「因為」父母反對才堅定，還是「雖然」父母反對，還是很堅定？'],
+  explain:'父母反對、她卻仍然堅定，是相反的關係，用 in spite of（儘管）。owing to 是「因為」，代入變成「因為父母反對所以她很堅定」，說不通。in contrast to 是比較兩個不同的東西，這裡沒有在比較。',
+  trap:null,
+  formula:['in spite of / despite + 名詞','儘管……','although 後面要接一整句話'], takeaway:['in spite of opposition','儘管有人反對']
+},
+{ n:17, p:'B', type:'意思題', answer:'discipline', options:['regulation','discipline','preservation','contentment'],
+  block:['What sets Sheu apart from others is her ___ to put in the hard work','讓許芳宜和別人不一樣的，是她願意下苦功的 ___'],
+  words:[
+    ['regulation','n.','規定；法規','School regulations say no phones in class.','校規規定上課不能用手機。'],
+    ['discipline','n.','自律；紀律','It takes discipline to get up at six every day.','每天六點起床需要自律。'],
+    ['preservation','n.','保存；保護','The preservation of old buildings is important.','保護老建築很重要。'],
+    ['contentment','n.','滿足','She smiled with contentment after dinner.','晚餐後她滿足地笑了。']],
+  quiz:{ bank:['regulations','discipline','preservation','contentment'], items:[
+    ['Athletes need ___ to train every day.','discipline'],
+    ['Drivers must follow traffic ___.','regulations'],
+    ['A good book and a cup of tea bring me ___.','contentment'],
+    ['Fridges help with the ___ of food.','preservation']]},
+  keys:[
+    ['talent','n.','天分','He has a talent for music.','他有音樂天分。'],
+    ['put in the hard work','phr.','下苦功','You have to put in the hard work to learn English.','學英文一定要下苦功。'],
+    ['diet','n.','飲食；節食','I am on a diet, so no cake for me.','我在節食，所以不吃蛋糕。'],
+    ['routine','n.','例行習慣','Running is part of my daily routine.','跑步是我每天的例行習慣。']],
+  hints:[
+    '看下一句當證據：她怎麼控制飲食？怎麼訓練？',
+    '一個人每天嚴格要求自己，中文叫什麼？',
+    'regulation 是別人訂的規定。題目說的是「她自己的特質」，還是「別人管她」？'],
+  explain:'下一句說她嚴格控制飲食、維持嚴格訓練，這是自己管自己，也就是 discipline（自律）。regulation 是學校或政府訂的規定，是外面的人管你。preservation 是保存，contentment 是滿足，都和苦練無關。',
+  trap:'學生看到「規定、管理」會選 regulation。要分清楚：regulation 是別人訂的，discipline 是自己管自己。',
+  formula:null, takeaway:['have the discipline to + V','有自律去做某事']
+},
+{ n:18, p:'B', type:'意思題', answer:'consistent', options:['controversial','courageous','consistent','conservative'],
+  block:['her ___ dedication to her art from adolescence to adulthood','從青少年到成年，她對藝術 ___ 的投入'],
+  words:[
+    ['controversial','adj.','有爭議的','Homework on weekends is a controversial topic.','週末要不要有作業，是有爭議的話題。'],
+    ['courageous','adj.','勇敢的','The courageous boy saved a child from the river.','那個勇敢的男孩從河裡救起一個小孩。'],
+    ['consistent','adj.','一直保持的；穩定的','His grades are consistent: always about 90.','他的成績很穩定，一直都九十分左右。'],
+    ['conservative','adj.','保守的','My grandparents have conservative ideas about dating.','我祖父母對談戀愛的想法很保守。']],
+  quiz:{ bank:['controversial','courageous','consistent','conservative'], items:[
+    ['My dad is ___; he doesn’t like change.','conservative'],
+    ['To get better, you need ___ practice every day.','consistent'],
+    ['The new rule is ___: some people love it, and some hate it.','controversial'],
+    ['It was ___ of her to sing in front of 500 people.','courageous']]},
+  keys:[
+    ['dedication','n.','投入；奉獻','Her dedication to her students is amazing.','她對學生的投入令人佩服。'],
+    ['adolescence','n.','青春期','Many people change a lot in adolescence.','很多人在青春期改變很多。'],
+    ['adulthood','n.','成年期','He moved to Taipei in early adulthood.','他剛成年時搬到台北。'],
+    ['peer','n.','同儕；同年齡的人','Teenagers care about what their peers think.','青少年很在意同儕的看法。']],
+  hints:[
+    'from adolescence to adulthood（從青少年到成年）是一段多長的時間？',
+    '這麼長的時間都在投入，代表她的投入是「一下子」，還是「一直都在」？',
+    '四個形容詞裡，哪一個是「一直保持、不改變」？'],
+  explain:'從青少年到成年是很長的時間，她一直都在投入，所以用 consistent（一直保持的）。courageous 勇敢也是好話，但句子的線索是「時間很長」，不是「冒險」。controversial 有爭議、conservative 保守，都不符合。',
+  trap:'學生常選 courageous，因為它是正面的字。提醒他們找線索，不要只看字的好壞。',
+  formula:null, takeaway:['consistent effort','持續的努力']
+},
+{ n:19, p:'B', type:'公式題', answer:'as', options:['as','while','unless','although'],
+  block:['Outstanding and renowned ___ she is, she has her share of setbacks','___ 她很傑出又很有名，她也有過不少挫折'],
+  words:[
+    ['although','conj.','雖然（放在句子開頭）','Although he is young, he is very wise.','雖然他很年輕，卻很有智慧。'],
+    ['as','conj.','雖然（形容詞放句首時）','Young as he is, he is very wise.','雖然他很年輕，卻很有智慧。'],
+    ['while','conj.','當……的時候','I listen to music while I study.','我讀書的時候會聽音樂。'],
+    ['unless','conj.','除非','You will fail unless you study.','除非你讀書，不然會不及格。']],
+  intro:'同一個意思「雖然他很年輕」，有兩種寫法。注意形容詞 young 的位置。',
+  compare:[['Although he is young, ...','although 放最前面'],['Young as he is, ...','形容詞放最前面，後面接 as']],
+  quiz:{ bank:['Although','as'], items:[
+    ['___ she was tired, she finished her homework.','Although'],
+    ['Tired ___ she was, she finished her homework.','as'],
+    ['Rich ___ he is, he never shows off.','as'],
+    ['___ it was cold, we went swimming.','Although']]},
+  keys:[
+    ['outstanding','adj.','傑出的','She is an outstanding student.','她是一位傑出的學生。'],
+    ['renowned','adj.','有名的','Taiwan is renowned for its night markets.','台灣以夜市聞名。'],
+    ['setback','n.','挫折','Losing the game was a big setback for the team.','輸掉比賽是球隊的一大挫折。']],
+  hints:[
+    '前半「她很傑出、很有名」，後半「她也有挫折」，是順著還是相反？',
+    '「雖然」有兩種寫法：Although she is ...，或「形容詞 + ___ + she is」。',
+    '這句的形容詞 Outstanding and renowned 被放到最前面了。'],
+  explain:'前後相反，是「雖然」的意思。although 要放在句子最前面（Although she is outstanding ...）；這句把形容詞搬到最前面，就只能用 as：Outstanding as she is。這題考公式，不是考意思。',
+  trap:'意思上 although 也是「雖然」，但位置不對。這題考的是公式，不是意思。',
+  formula:['形容詞 + as + 主詞 + be, ...','雖然……，但是……','例：Tired as he was, he kept working.'], takeaway:['Outstanding as she is, ...','雖然她很傑出，……']
+},
+{ n:20, p:'B', type:'意思題', answer:'Still', options:['Hence','Otherwise','Namely','Still'],
+  block:['... cost her millions. ___, she takes it upon herself to promote modern dance','……讓她損失好幾百萬。___，她主動推廣現代舞'],
+  words:[
+    ['hence','adv.','因此','It rained; hence, the game was canceled.','下雨了，因此比賽取消了。'],
+    ['otherwise','adv.','否則；不然','Hurry up; otherwise, you will be late.','快一點，不然你會遲到。'],
+    ['namely','adv.','也就是說','Two students were late, namely Amy and Tom.','有兩個學生遲到，也就是 Amy 和 Tom。'],
+    ['still','adv.','儘管如此；還是','The test was hard. Still, I passed it.','考試很難，儘管如此，我還是過了。']],
+  quiz:{ bank:['Hence','Otherwise','Namely','Still'], items:[
+    ['It was raining. ___, we played basketball.','Still'],
+    ['Wear a coat. ___, you will catch a cold.','Otherwise'],
+    ['He was sick. ___, he stayed home.','Hence'],
+    ['I like only one subject, ___, English.','namely']]},
+  keys:[
+    ['establish','v.','建立；創立','My grandfather established this shop in 1980.','我爺爺在 1980 年創立這家店。'],
+    ['terminate','v.','終止','The company terminated his contract.','公司終止了他的合約。'],
+    ['promote','v.','推廣','The city promotes riding bikes.','這個城市推廣騎腳踏車。'],
+    ['at home and abroad','phr.','在國內外','The singer is popular at home and abroad.','這位歌手在國內外都很受歡迎。']],
+  hints:[
+    '前一句（舞團失敗、損失好幾百萬）是好事還是壞事？',
+    '後一句她做了什麼？是放棄，還是繼續？',
+    '壞事發生了，但她「還是」繼續做。四個字裡哪個是「儘管如此，還是」？'],
+  explain:'前一句是壞事，後一句她仍然繼續推廣現代舞，中間要用 Still（儘管如此，還是）。Hence「因此」代入變成「因為虧錢所以推廣」，說不通。Otherwise 是否則，Namely 是也就是說。',
+  trap:null,
+  formula:['壞事。Still, 繼續做。','儘管如此，……還是……','意思相同：Nevertheless, However'], takeaway:['Still, ...','儘管如此，……']
+},
+// 21 to 30 share the word bank taught at passage level.
+{ n:21, p:'C', type:'詞性題', answer:'lies', pos:'動詞', block:['behind her glazed and extravagant facades ___ a storied sea-diving tradition','在她光鮮華麗的外表後面，___ 一個歷史悠久的潛水傳統'],
+  hints:['這句話的主詞在哪裡？behind ... facades 是地點，不是主詞。','空格後面的 a ... tradition 才是主詞（單數）。空格要放什麼詞性？','找一個動詞，而且主詞是單數，要加 s。如果這題放到最後做，只剩一個選項。'],
+  explain:'把句子轉回正常順序：A tradition lies behind the facades.（一個傳統位於外表後面。）英文把地點放前面時，動詞也跟著往前。lie 在這裡是「位於、存在」，不是說謊；主詞是單數，所以用 lies。',
+  trap:null, formula:['地點 + lies + 主詞','在某處存在著……',null], takeaway:['Behind ... lies a tradition','在……背後存在著一個傳統'] },
+{ n:22, p:'C', type:'詞性題', answer:'provide for', pos:'動詞原形', block:['female divers who ___ their family by scouring the sea floor','她們是女性潛水員，___ 家人，靠的是搜尋海底'],
+  hints:['who 指的是誰？是單數還是複數？','空格要放原形動詞。10 個選項裡，哪兩個是原形動詞？','她們靠撈海產賺錢，對家人做什麼？'],
+  explain:'who 指 divers（複數），後面接原形動詞，候選是 provide for 和 assume。她們靠撈海產賺錢，是在「養活」家人，選 provide for。assume their family 說不通。',
+  trap:null, formula:null, takeaway:['provide for one’s family','養家'] },
+{ n:23, p:'C', type:'詞性題', answer:'initially', pos:'副詞', block:['This was a profession ___ dominated by males.','這曾經是一個 ___ 由男性主導的職業。'],
+  hints:['空格夾在 profession 和 dominated 中間，是用來修飾動詞的。要什麼詞性？','10 個選項裡，哪兩個是副詞？','下一句用 However 說後來改變了。那「一開始」是誰在做這個工作？'],
+  explain:'空格修飾 dominated，要副詞，候選是 initially 和 hardly。下一句 However 說後來男人死了很多、女人變多，所以一開始是男人主導，選 initially（起初）。用 hardly 會變成「幾乎不由男性主導」，和下一句矛盾。',
+  trap:null, formula:null, takeaway:['initially dominated by males','起初由男性主導'] },
+{ n:24, p:'C', type:'詞性題', answer:'colleagues', pos:'名詞（複數）', block:['haenyeos increasingly outnumbered their male ___','海女的人數漸漸超過她們的男性 ___'],
+  hints:['their male ___：形容詞 male 後面要接什麼詞性？','10 個選項裡，哪兩個是名詞？','outnumber 是「人數超過」。比人數，比的是「人」還是「東西」？'],
+  explain:'male 後面接名詞，候選是 colleagues 和 chores。outnumber 是比人數，要比的是人，colleagues（同行）是人，chores（家事）不是人。',
+  trap:null, formula:null, takeaway:['male colleagues','男性同事'] },
+{ n:25, p:'C', type:'詞性題', answer:'primary', pos:'形容詞', block:['haenyeos have become the ___ source of income','海女已經成為 ___ 收入來源'],
+  hints:['the ___ source：the 和名詞 source 中間，要放什麼詞性？','10 個選項裡，有幾個形容詞？'],
+  explain:'the 和名詞中間放形容詞，10 個選項裡只有 primary 是形容詞。代入：海女成為家裡主要的收入來源。',
+  trap:null, formula:null, takeaway:['the primary source of income','主要收入來源'] },
+{ n:26, p:'C', type:'詞性題', answer:'reversed', pos:'過去分詞', block:['where traditional gender roles are ___.','在那裡，傳統的男女角色被 ___。'],
+  hints:['are ___：be 動詞後面表示「被……」，要接什麼形式？','下一句 That is（也就是說）在解釋這件事：男人在做什麼？','照顧小孩、做家事，傳統上是誰在做？現在換成男人，角色變得怎樣？'],
+  explain:'are 後面接過去分詞，候選是 reversed 和 witnessed。下一句說男人照顧小孩、做家事，傳統上這是女人做的，現在角色「顛倒」了，選 reversed。',
+  trap:null, formula:null, takeaway:['roles are reversed','角色顛倒了'] },
+{ n:27, p:'C', type:'詞性題', answer:'chores', pos:'名詞（複數）', block:['attending to other physically-demanding household ___','處理其他很費體力的家庭 ___'],
+  hints:['household ___ 後面沒有名詞了。空格要放什麼詞性？','前面說男人在照顧小孩。照顧小孩，也是家裡的什麼？'],
+  explain:'household 後面接名詞，候選是 chores 和 colleagues。照顧小孩和其他費體力的家裡的事，就是家事，household chores。',
+  trap:null, formula:null, takeaway:['do household chores','做家事'] },
+{ n:28, p:'C', type:'詞性題', answer:'assume', pos:'動詞原形', block:['Men still ___ leadership roles in society at large.','在整個社會上，男人仍然 ___ 領導角色。'],
+  hints:['Men 是複數主詞，後面要接什麼？','前一句說：在家庭以外，女性很少占上風。那男人在社會上怎樣？','assume 除了「假設」，還有什麼意思？（看剛學的單字）'],
+  explain:'Men 是複數，後面接原形動詞，候選是 assume 和 provide for。前一句說家庭以外女性很少占上風，所以男人仍然「擔任」領導角色。assume a role 是「擔任一個角色」。',
+  trap:'學生只認得 assume 是「假設」，要特別補「擔任」這個意思。',
+  formula:null, takeaway:['assume a leadership role','擔任領導角色'] },
+{ n:29, p:'C', type:'詞性題', answer:'hardly', pos:'副詞', block:['Because of colonial restrictions, haenyeos ___ advance to independent business owners.','因為殖民時期的限制，海女 ___ 升級成獨立的老闆。'],
+  hints:['空格在主詞 haenyeos 和動詞 advance 中間。要什麼詞性？','Because of restrictions（因為有限制），是好事還是壞事？','下一句：Instead, they are confined（相反地，她們被困住）。所以她們「能」還是「幾乎不能」當老闆？'],
+  explain:'主詞和動詞中間放副詞，候選是 hardly 和 initially。因為有限制，下一句又說她們被困在潛水工作裡，所以她們「幾乎不能」當老闆，選 hardly。',
+  trap:'學生會把 hardly 當成「努力地」。hardly 是「幾乎不」，意思完全不同；「努力地」是 hard。',
+  formula:null, takeaway:['can hardly + V','幾乎不能……'] },
+{ n:30, p:'C', type:'詞性題', answer:'witnessed', pos:'過去分詞', block:['Jeju may have ___ a sharp decrease in the number of haenyeos','濟州島或許已經 ___ 海女人數大幅減少'],
+  hints:['may have 後面要接什麼形式的動詞？','10 個選項裡，哪兩個是過去分詞？','濟州島對「海女人數減少」這件事，是「把它顛倒」，還是「經歷、看到」它？'],
+  explain:'may have 後面接過去分詞，候選是 witnessed 和 reversed。濟州島「經歷」了海女人數大幅減少，選 witnessed。英文常用地方當主詞：這個地方經歷了某種變化。',
+  trap:null, formula:['地方 + witness + 變化','某地經歷了……','例：Taiwan has witnessed great changes.'], takeaway:['witness a sharp decrease','經歷大幅下降'] }
+];
+
 return {passages,questions,posRules,posAnswer};
 })();
 const coachQ=n=>coach.questions.find(q=>q.n===n);
@@ -246,7 +660,18 @@ const coachP=id=>coach.passages.find(p=>p.id===id);
 const coachParas={"A": [{"from": 0, "to": 2, "zh": "在人口密集的大城市裡，大家製造的大量垃圾，可能為政府和一般民眾帶來災難。大部分家庭垃圾最後不是送進掩埋場，就是被燒掉；不過，美國專家已經 11. ___ 一個替代方法，甚至能把垃圾變成對我們有利的東西。"}, {"from": 2, "to": 5, "zh": "垃圾在掩埋場分解時，裡面的有機物質會釋放甲烷和二氧化碳等氣體，這兩種氣體 12. ___ 都可以燃燒，產生足夠一般家庭使用的電。除了阿拉斯加和夏威夷，美國幾乎每一州目前都有這類計畫。掩埋場氣體的潛力 13. ___ 大，以至於美國政府認可它是一種高效率又環保的能源。"}, {"from": 5, "to": 9, "zh": "事實上，類似的計畫正在全世界 14. ___。比利時、挪威和瑞典等國家已經和當地企業合作，利用常被人討厭的掩埋場來取得能源，也賺取額外收入。然而，這個想法在台灣 15. ___ 被好好思考。無論如何，考慮到我們的垃圾量越來越多，這個計畫絕對值得考慮。"}], "B": [{"from": 0, "to": 2, "zh": "在台灣出生長大的舞者許芳宜，在國際舞台上令人驚豔。她很早就發現舞蹈是她的志向，16. ___ 父母強烈反對，她一直很堅定、很有韌性，努力成為職業舞者。"}, {"from": 2, "to": 6, "zh": "有天分的舞者從來不缺。然而，讓許芳宜和別人不一樣的，是她願意下苦功、提升技巧的 17. ___。她近乎虔誠地控制飲食，也維持嚴格的訓練習慣來保持身材。從青少年到成年，她對藝術 18. ___ 的投入，讓老師和同儕印象深刻；1995 年，她贏得瑪莎葛蘭姆舞團令人羨慕的一個位子，那是美國最受尊敬、最有名的舞團之一。"}, {"from": 6, "to": 10, "zh": "19. ___ 她很傑出又很有名，她也和任何追求遠大夢想的人一樣，遇過不少挫折。她一個人創立的舞團沒有成功，她甚至終止了好幾份合約，損失好幾百萬。20. ___，她主動扛起責任，在國內外推廣現代舞。未來幾年，我們一定可以期待被她更多的作品驚豔。"}], "C": [{"from": 0, "to": 3, "zh": "濟州島是南韓南部外海的一個島，通常讓人聯想到奢華的生活和豪華的度假別墅。然而，在光鮮華麗的外表後面，21. ___ 一個可以追溯到一千兩百多年前的潛水傳統。海女是女性潛水員，她們在濟州島外海仔細搜尋海底，找海藻、章魚、鮑魚和其他海洋生物，靠這個 22. ___ 家人。"}, {"from": 3, "to": 7, "zh": "這個職業 23. ___ 由男性主導。然而，隨著越來越多男人死於戰爭、深海潛水和捕魚意外，海女的人數漸漸超過男性 24. ___。過去幾十年來，海女已經成為大部分家庭的 25. ___ 收入來源，當地也變成半女性主導的社會，傳統的男女角色被 26. ___。也就是說，男人會照顧小孩，處理其他很費體力的家庭 27. ___；娶海女的男人甚至必須付給新娘家一大筆嫁妝當作補償。"}, {"from": 7, "to": 13, "zh": "然而，這種女性勝過男性的情況，在家庭以外很少見。在整個社會上，男人仍然 28. ___ 領導角色。因為殖民時期的限制，海女 29. ___ 升級成獨立的老闆，只能做潛水和捕魚這種很耗體力的工作。最近幾十年，濟州島或許已經 30. ___ 海女人數大幅減少，但她們仍然因為自己的貢獻而受到尊敬，並在 2016 年被聯合國教科文組織列入人類文化遺產。"}]};
 function readingSlides(p){return [{type:'reading',pid:p.id},...coachParas[p.id].map((x,i,arr)=>({type:'chunks',pid:p.id,from:x.from,to:x.to,part:i+1,parts:arr.length}))]}
 function coachedQuestionSlides(question){const c=coachQ(question.num);return [{...question,type:'question'},{type:'warmup',num:question.num},{...question,type:'supplement'},{type:'drill',num:question.num}]}
-const clozeTeachingSlides=[];const wordBankTeachingSlides=[];
+const clozeTeachingSlides=[
+{type:'story',pid:'A'},...readingSlides(coachP('A')),
+...clozeData.slice(0,5).flatMap(coachedQuestionSlides),
+{type:'story',pid:'B'},...readingSlides(coachP('B')),
+...clozeData.slice(5).flatMap(coachedQuestionSlides)
+];
+const wordBankTeachingSlides=[
+{type:'story',pid:'C'},...readingSlides(coachP('C')),
+{type:'wb-words',from:0,to:5},{type:'wb-words',from:5,to:10,keys:true},
+{type:'wb-drill'},{type:'wb-sort'},
+...wordBankData.flatMap(question=>[{...question,type:'wordbank-question'},{...question,type:'supplement'}])
+];
 let coachStep=0;
 const cEsc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const cBlank=s=>cEsc(s).replace(/(?:(\d+)\. )?___/g,(m,n)=>'<span class="c-blank">'+(n?n+'. ':'')+'____</span>');
@@ -340,13 +765,13 @@ const reviewSlides=[
 {type:'end'}
 ];
 const boardNotes={"1": ["代表公司，不等於參加活動", "sales representative 是「業務代表」，替公司接洽客戶；participant 是「參與者」，例如 a participant in a competition。代表公司可說 represent a company。"], "2": ["兩種「反對」的接法", "object to the proposal 和 oppose the proposal 都是「反對提案」；object 後要接 to，oppose 直接接受詞。例：They objected to the plan.＝They opposed the plan."], "4": ["distinguished 與 distinctive", "distinguished 指因成就而「傑出、受敬重」，如 a distinguished professor；distinctive 指「有辨識度的」，如 a distinctive voice。"], "6": ["priority 的字族與搭配", "priority（優先事項）的複數是 priorities；set priorities＝設定優先順序；give priority to safety＝優先考慮安全；prioritize 是動詞「優先處理」。"], "7": ["感受與陪伴的實用說法", "share her sentiments＝認同她的感受；keep someone company＝陪伴某人。例：I stayed to keep her company. 我留下來陪她。"], "9": ["suspend 的詞形", "be suspended from duty＝被停職；名詞是 suspension。例：The officer was suspended pending an investigation."], "10": ["concern 的兩種主詞", "The issue concerns residents.＝這件事令居民擔憂；Residents are concerned about the issue.＝居民擔心這件事。注意主詞不同，句型也跟著變。"], "11": ["devise 與 device", "devise 是動詞「想出、設計」，常接 a plan / strategy / solution；device 是名詞「裝置」。例：They devised a plan to turn waste into energy."], "14": ["catch on 有兩個意思", "某個做法 catches on＝變得流行；人 catches on＝終於理解。例：The new method caught on quickly.／I finally caught on."], "15": ["has yet to 的意思", "has yet to be considered＝尚未被考慮，相當於 has not been considered yet。yet 在這裡表示事情到目前仍未發生。"], "17": ["discipline 與 regulation", "discipline 在本題指持續自律的能力：have the discipline to practice；regulation 指外部訂定的規定，如 safety regulations。"], "18": ["consistent 的字族", "consistent dedication＝始終如一的投入；名詞 consistency、副詞 consistently。例：She practiced consistently for years."], "21": ["lie 的兩組變化", "lie＝「位於／躺」時，過去式 lay、過去分詞 lain；lie＝「說謊」時，過去式和過去分詞都是 lied。本篇 behind the facades lies... 是「位於／存在」。"], "22": ["provide 的三種搭配", "provide for a family＝養家；provide a family with food＝供給家人食物；provide food for a family＝為家庭提供食物。本題需要「供養家人」，所以用 provide for。"], "27": ["chores 與 housework", "household chores 是一項項可數的家務，如洗碗、掃地；housework 是不可數的家務總稱。例：We share the household chores."], "28": ["assume 不只是假設", "assume a leadership role＝擔任領導職務；assume responsibility＝承擔責任；assume that... 才是「假設……」。"], "29": ["hard 與 hardly 意思不同", "work hard＝努力工作；hardly work＝幾乎不工作。本篇 could hardly advance 是「幾乎無法晉升／發展」。"], "30": ["witness 可以用地方作主詞", "witness 作動詞也能表示「經歷、見證變化」。Jeju witnessed a decrease in haenyeos＝濟州島經歷海女人數下降；這裡不是「目擊者」。"]};
-const slides=[{type:'intro'},introSlides[1],...questionData.filter(q=>q.num>=6&&q.num<=10).flatMap(coachedQuestionSlides),{type:'vocab-summary',group:[6,7,8,9,10],title:'本課單字總表｜Q6–10'},{type:'practice',title:'課堂互動複習｜Q6–10',items:reviewSlides.find(r=>r.type==='practice').items.slice(5,10)},{type:'collocations',range:[6,10]},{type:'end'}];
+const slides=[{type:'intro'},...clozeTeachingSlides,...reviewSlides.filter(r=>(r.type==='vocab-summary'&&r.group[0]>=11&&r.group[0]<=16)||(r.type==='practice'&&r.title.includes('Q11–20'))),{type:'collocations',range:[11,20]},{type:'end'}];
 let current=0,revealed=false,zhVisible=false;
 const jumpList=(()=>{const out=[];const seen=new Set();slides.forEach((sl,i)=>{let key=null,label=null,group=null;
- if(sl.type==='intro'){key='intro';label='開始';group='課程'}else if(sl.type==='strategy'){key='strategy';label='詞彙題三步驟';group='課程'}
+ if(sl.type==='intro'){key='intro';label='開始';group='課程'}
  else if(sl.type==='story'){key='p'+sl.pid;label={A:'題組 A 文章（11–15）',B:'題組 B 文章（16–20）',C:'題組 C 文章（21–30）'}[sl.pid];group='文章'}
  else if(sl.type==='wb-words'){key='wb';label='文意選填單字';group='文章'}
- else if(sl.num&&['question','warmup','wordbank-question'].includes(sl.type)){key='q'+sl.num;label='第 '+sl.num+' 題';group=sl.num<=10?'詞彙題 6–10':sl.num<=20?'綜合測驗 11–20':'文意選填 21–30'}
+ else if(sl.num&&['question','warmup','wordbank-question'].includes(sl.type)){key='q'+sl.num;label='第 '+sl.num+' 題';group=sl.num<=10?'詞彙題 1–10':sl.num<=20?'綜合測驗 11–20':'文意選填 21–30'}
  else if(sl.type==='vocab-summary'){key='rev';label='單字總表與複習';group='複習'}
  if(key&&!seen.has(key)){seen.add(key);out.push({i,label,group})}});return out})();
 function buildJump(){const sel=document.getElementById('jump-select');let html='',g=null;jumpList.forEach(j=>{if(j.group!==g){if(g)html+='</optgroup>';html+='<optgroup label="'+j.group+'">';g=j.group}html+='<option value="'+j.i+'">'+j.label+'</option>'});sel.innerHTML=html+'</optgroup>'}
@@ -371,7 +796,7 @@ showButton('reveal-btn',slide.type==='question'||slide.type==='wordbank-question
 resetRevealButton();
 if(coachRender(slide,root)){setTimeout(applyZh,0);return}
 if(slide.type==='intro'){
-root.innerHTML='<div class="slide-label">GSAT · Lesson 02</div><div class="hero"><div class="hero-card"><h1>詞彙題 <span>6–10</span></h1><p>Vocabulary Questions</p></div><div class="hero-card hero-list"><div class="hero-item">Question</div><div class="hero-item">Vocabulary</div><div class="hero-item">Practice</div></div></div>';
+root.innerHTML='<div class="slide-label">GSAT · Lesson 03</div><div class="hero"><div class="hero-card"><h1>綜合測驗 <span>11–20</span></h1><p>Landfill Gas × Dancer Sheu Fang-Yi</p></div><div class="hero-card hero-list"><div class="hero-item">Question</div><div class="hero-item">Vocabulary</div><div class="hero-item">Practice</div></div></div>';
 }else if(slide.type==='strategy'){
 root.innerHTML='<div class="slide-label">Vocabulary Strategy</div><div class="slide-title">'+slide.title+'</div><div class="slide-subtitle">'+slide.subtitle+'</div><div class="rule-grid"><div class="rule-card"><div class="rule-number">1</div><strong>先看搭配</strong><p>sales representative、object to、lay a foundation。</p></div><div class="rule-card"><div class="rule-number">2</div><strong>找語意證據</strong><p>because、That is why、Compared with 等線索決定答案方向。</p></div><div class="rule-card"><div class="rule-number">3</div><strong>檢查主受詞</strong><p>不是「和主題有關」就能選，動作關係也必須合理。</p></div></div>';
 }else if(slide.type==='article'){
@@ -404,7 +829,7 @@ root.innerHTML='<div class="slide-label">Writing Bank</div><div class="slide-tit
 }else if(slide.type==='practice'){
 root.innerHTML='<div class="slide-label">Interactive Review</div><div class="slide-title">'+slide.title+'</div><div class="practice-list">'+slide.items.map((item,index)=>'<div class="practice-item"><div class="practice-question">'+(index+1)+'. '+item[0]+'</div><div class="practice-answer" id="practice-'+index+'">'+item[1]+'</div></div>').join('')+'</div>';
 }else{
-root.innerHTML='<div class="hero-card" style="text-align:center;margin-top:8vh"><div class="slide-label">Lesson Complete</div><h1>Lesson 02 完成</h1><p>詞彙題 6–10</p></div>';
+root.innerHTML='<div class="hero-card" style="text-align:center;margin-top:8vh"><div class="slide-label">Lesson Complete</div><h1>Lesson 03 完成</h1><p>綜合測驗 11–20</p></div>';
 }
 setTimeout(applyZh,0);
 }
